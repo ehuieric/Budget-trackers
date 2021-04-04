@@ -24,7 +24,6 @@ mongoose.connect(
     useFindAndModify: false
   }
 );
-
 // routes
 app.use(require("./routes/api.js"));
 
